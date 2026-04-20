@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+  // Ensure the musl engine binary is included so Prisma works on
+  // node:20-alpine (the Akash container base image).
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Visit {
+  id        Int      @id @default(autoincrement())
+  path      String
+  createdAt DateTime @default(now())
+}
