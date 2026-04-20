@@ -1,10 +1,10 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/api/health/route": "app/api/health/route.js",
-  "/api/env/route": "app/api/env/route.js",
-  "/api/stream/route": "app/api/stream/route.js",
+  "/db/page": "app/db/page.js",
   "/middleware-test/page": "app/middleware-test/page.js",
   "/product/[id]/page": "app/product/[id]/page.js",
-  "/db/page": "app/db/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/api/stream/route": "app/api/stream/route.js",
+  "/api/env/route": "app/api/env/route.js"
 }

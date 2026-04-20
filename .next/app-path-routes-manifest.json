@@ -1,1 +1,1 @@
-{"/_not-found/page":"/_not-found","/api/health/route":"/api/health","/api/env/route":"/api/env","/api/stream/route":"/api/stream","/middleware-test/page":"/middleware-test","/product/[id]/page":"/product/[id]","/db/page":"/db","/page":"/"}
+{"/_not-found/page":"/_not-found","/api/health/route":"/api/health","/db/page":"/db","/middleware-test/page":"/middleware-test","/product/[id]/page":"/product/[id]","/page":"/","/api/stream/route":"/api/stream","/api/env/route":"/api/env"}
